@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Xaml.Shapes;
 
 // https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x804 上介绍了“空白页”项模板
 
@@ -25,6 +26,18 @@ namespace TeamWork1
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        public Brush Green { get; private set; }
+        public Brush Gray { get; private set; }
+
+        //tang's contribution
+        private void tangRadio_Checked(object sender, RoutedEventArgs e)
+        {
+            if ((bool)tangRadio.IsChecked)
+            {
+                tangText.Text = "Tang Hao add a contribution.";
+            }
         }
     }
 }
