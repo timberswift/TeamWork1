@@ -12,6 +12,10 @@
         <RadioButton Name ="tangRadio" Content="check1" HorizontalAlignment="Left" Margin="329,174,0,0" VerticalAlignment="Top" Height="55" Width="130" RenderTransformOrigin="0.538,-3.671" Checked="tangRadio_Checked">
 
         </RadioButton>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="523,282,0,0" VerticalAlignment="Top" Width="100"/>
+        <Slider Name="ltoSlider"  HorizontalAlignment="Left" Margin="362,306,0,0" VerticalAlignment="Top" Width="300" ValueChanged="ltoSlider_ValueChanged"/>
+        <Border Name="ltoBorder" BorderBrush="Black" HorizontalAlignment="Left" Height="34" Margin="362,289,0,0" VerticalAlignment="Top" Width="0">
+            <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" Text="lotsofone has just contributed some code here" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="14" Height="25" Width="291"/>
+        </Border>
+        <TextBlock HorizontalAlignment="Left" Margin="265,0,0,388" Text="drag this =>" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="14" Height="25" Width="83"/>
     </Grid>
 </Page>

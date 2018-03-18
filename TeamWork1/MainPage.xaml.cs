@@ -39,5 +39,10 @@ namespace TeamWork1
                 tangText.Text = "Tang Hao add a contribution.";
             }
         }
+
+        private void ltoSlider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            ltoBorder.Width = e.NewValue * 3;
+        }
     }
 }
