@@ -44,5 +44,13 @@ namespace TeamWork1
         {
             ltoBorder.Width = e.NewValue * 3;
         }
+
+
+        //wong_contribution
+        private void wong_toggleSwitch_Toggled(object sender, RoutedEventArgs e)
+        {
+            wong_image.Height = 100;
+            wong_image.Width = 100;
+        }
     }
 }
