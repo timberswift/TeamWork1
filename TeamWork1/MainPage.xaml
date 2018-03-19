@@ -17,9 +17,22 @@
             <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" Text="lotsofone has just contributed some code here" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="14" Height="25" Width="291"/>
         </Border>
         <TextBlock HorizontalAlignment="Left" Margin="265,0,0,388" Text="drag this =>" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="14" Height="25" Width="83"/>
-      
-    <Image x:Name="wong_image" Source="Assets/StoreLogo.png" HorizontalAlignment="Left" Height="50" Margin="397,401,0,0" VerticalAlignment="Top" Width="50"/>
-    <ToggleSwitch x:Name="wong_toggleSwitch" OnContent="large" OffContent="small" HorizontalAlignment="Left" Margin="259,407,0,0" VerticalAlignment="Top" Toggled="wong_toggleSwitch_Toggled"/>
+
+        <Image x:Name="wong_image" Source="Assets/StoreLogo.png" HorizontalAlignment="Left" Height="50" Margin="397,401,0,0" VerticalAlignment="Top" Width="50"/>
+        <ToggleSwitch x:Name="wong_toggleSwitch" OnContent="large" OffContent="small" HorizontalAlignment="Left" Margin="259,407,0,0" VerticalAlignment="Top" Toggled="wong_toggleSwitch_Toggled"/>
+
+
+
+        <StackPanel Name="Hou_Panal" Visibility="Collapsed" HorizontalAlignment="Left" Height="240" Margin="933,372,0,0" VerticalAlignment="Top" Width="200">
+            <Image Name="Hou_Image" Source="Assets/TeacherQQ.png"/>
+            <TextBlock Text="Teacher、s QQ image." FontSize="19" HorizontalAlignment="Center"/>
+        </StackPanel>
+        
+        <Button Content="Suprise" FontSize="25" Background="Yellow" HorizontalAlignment="Left" Margin="779,380,0,0" VerticalAlignment="Top" Height="53" Width="114" Click="Button_Click"/>
+
+
+
+
 
     </Grid>
 </Page>

@@ -30,6 +30,7 @@ namespace TeamWork1
 
         public Brush Green { get; private set; }
         public Brush Gray { get; private set; }
+        public Visibility Visible { get; private set; }
 
         //tang's contribution
         private void tangRadio_Checked(object sender, RoutedEventArgs e)
@@ -51,6 +52,11 @@ namespace TeamWork1
         {
             wong_image.Height = 100;
             wong_image.Width = 100;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Hou_Panal.Visibility = Visible;
         }
     }
 }
