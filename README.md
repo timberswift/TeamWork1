@@ -10,3 +10,6 @@
 <image src="https://github.com/lotsofone/image-repository/blob/master/timberswift/TeamWork1/2.png"/>
 
 <hr>
+
+每个人都有contribute代码：
+<image src="https://github.com/lotsofone/image-repository/blob/master/timberswift/TeamWork1/3.png"/>
